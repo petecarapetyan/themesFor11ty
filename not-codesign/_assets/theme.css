@@ -1,0 +1,88 @@
+.ga-content3-l,
+.ga-content3-main,
+.ga-content3-r {
+  background-image: url(/_assets/_static/images/laura-adai-h9-5tO_EIeQ-unsplash.jpg);
+  background-size: center;
+  width: 100%;
+  color: whitesmoke;
+}
+
+.ga-content-r,
+.ga-content-main,
+.ga-content-l {
+  background-color:rgb(112, 25, 51);
+  color: whitesmoke;
+}
+
+.ga-content5-l,
+.ga-content5-main,
+.ga-content5-r {
+  background-color:#f9f6f3;
+}
+
+.ga-head-l,
+body[layout^='layout-home'] #main-header,
+.ga-head-r {
+  top: 0px;
+  position: sticky;
+}
+
+.sidebar-grid-area {
+  position: sticky;
+  top: 56px;
+}
+
+
+#main-header.header-grid-area {
+  font-family: 'Philosopher', sans-serif;
+}
+
+#main-header .logo-link {
+  font-family: 'Train One', sans-serif;
+}
+
+.logo-text {
+  font-family: 'Train One', sans-serif;
+  font-size: 36px;
+  border-bottom: solid 5px black;
+  margin: 0px 5px;
+  padding-bottom: 5px;
+}
+
+html {
+  font-family: 'Cantarell', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: var(--black);
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Philosopher', sans-serif;
+}
+
+body {
+  font-family: 'Cantarell', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  color: var(--primary-text-color);
+  background-color: var(--page-background);
+}
+
+.markdown-body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: var(--markdown-body, --page-background);
+  line-height: 1.5;
+  font-family: 'Cantarell', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+

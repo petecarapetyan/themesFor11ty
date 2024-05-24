@@ -1,0 +1,13 @@
+<h2 class="teaser-title">{{ teaserTitle }}</h2>
+
+<section class="teasers">
+  {% for teaser in teasers %}
+    <article>
+      <a href="{{teaser.href}}">
+      <h3>{{ teaser.title }}</h3>
+      {{ teaser.img | safe }}
+      <div>{{ teaser.text | safe }}</div>
+      </a>
+    </article>
+  {% endfor %}
+</section>

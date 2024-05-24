@@ -1,0 +1,72 @@
+body[layout='layout-home'] {
+  grid-auto-rows: 0; 
+  grid-auto-columns: 0;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: 1fr minmax(650px, auto) 1fr;
+  grid-template-rows: 81px minmax(350px, auto) auto;
+  grid-template-areas:
+    "content-l  head-main     content-r"
+    "content-l  content-main  content-r"
+    "content-l  foot-main     content-r";
+  grid-auto-rows: 0; 
+  grid-auto-columns: 0;
+  overflow-x: hidden;
+}
+
+body[layout='layout-sidebar'],
+body[layout='layout-index'],
+body[layout='layout-blog-details'] {
+  grid-auto-rows: 0; 
+  grid-auto-columns: 0;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 300px) minmax(665px, auto) 1fr;
+  grid-template-rows: 81px minmax(350px,auto) auto;
+  grid-template-areas:
+    "content-l  head-main     head-main     content-r"
+    "content-l  content-side  content-main  content-r"
+    "content-l  foot-main     foot-main     content-r";
+  grid-auto-rows: 0; 
+  grid-auto-columns: 0;
+  overflow-x: hidden;
+}
+
+.header-grid-area {
+  grid-area: head-main;
+}
+
+.ga-content-l {
+  grid-area: content-l;
+}
+.ga-content-side {
+  grid-area: content-side;
+}
+.content-grid-area {
+  grid-area: content-main;
+}
+.ga-content-r {
+  grid-area: content-r;
+}
+
+.ga-foot-main {
+  grid-area: foot-main;
+}
+
+@media (max-width: 1024px) {
+  body[layout='layout-sidebar'],
+  body[layout='layout-index'],
+  body[layout='layout-blog-details']  {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 56px minmax(350px, 1fr) auto;
+    grid-template-areas:
+      "head-main"
+      "content-main"
+      "foot-main";
+    /* next 4 lines prevents stray grid items from being written WTF???????? */
+    grid-auto-rows: 0; 
+    grid-auto-columns: 0;
+    overflow-x: hidden;
+  }
+}

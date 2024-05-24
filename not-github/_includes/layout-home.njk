@@ -1,0 +1,54 @@
+{% extends 'layout-default.njk' %}
+
+{% block themeBody %}
+  <header id="main-header" class="header-grid-area">
+    {% block header %}
+      {% include 'partials/header.njk' %}
+    {% endblock header%}
+  </header>
+
+  <div class="site-banner rocket-content ga-head2-main">
+    <p>[banner goes here, specific to this site. (not adsense, for example)]</p>
+  </div>
+
+  <div class="rocket-content ga-head3-main">
+    <p>head3-main</p>
+  </div>
+
+  <div class="rocket-content ga-head4-main">
+      <nav class="navOne">
+        <ul>
+          <li><a href="/">Foo</a></li>
+          <li><a href="/">Bar</a></li>
+          <li><a href="/">Wah</a></li>
+          <li><a href="/">Yada</a></li>
+          <li><a href="/">Baz</a></li>
+          <li><a href="/">YoThere</a></li>
+        </ul>
+      </nav>
+  </div>
+
+  <div class="ga-content-l"></div>
+  <div class="sidebar-grid-area">
+    {% block sidebar %}
+      {% include 'partials/_layoutHome/sidebar.njk' %}
+    {% endblock sidebar %}
+  </div>
+  <div class="content-grid-area">
+    {% block content %}
+      {% include 'partials/_layoutHome/content.njk' %}
+    {% endblock content %}
+  </div>
+  <div class="ga-content-r"></div>
+
+  <div class="ga-foot-main">
+    {% block footer %}
+      {% include 'partials/footer.njk' %}
+    {% endblock footer %}
+  </div>
+
+  <div class="ga-content-r"></div>
+
+
+  {% include 'partials/bottom.njk' %}
+{% endblock themeBody %}

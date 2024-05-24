@@ -1,0 +1,135 @@
+img {
+  max-width: 100%;
+}
+
+.story-panel-margins {
+  height: 100%;
+  margin: 0 15px 0;
+  display: grid;
+}
+
+.front-stories {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 20px;
+}
+
+.front-story {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.black-back{
+  background-color: black;
+}
+.grey-back{
+  background-color: whitesmoke;
+}
+.sales-banner-panel {
+  background: black;
+  height: 450px;
+}
+
+.sales-banner-margins {
+  margin: 0 15px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sales-banner {
+  width: 70%;
+  overflow: word;
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sales-button {
+  width: fit-content;
+  height: 30px;
+}
+
+.sales-pic {
+  background: black url(/_merged_assets/_static/images/fire.jpg);
+  background-size: cover;
+  height: 450px;
+}
+
+.story-panel {
+  background: white;
+  height: 450px;
+  margin: 30px 0 0;
+}
+
+.page-width {
+  max-width: 1600px;
+}
+
+.ga-head-l,
+body[layout^='layout-home'] #main-header,
+.ga-head-r {
+  top: 0px;
+  position: sticky;
+}
+
+.sidebar-grid-area {
+  position: sticky;
+  top: 70px;
+}
+
+#main-header.header-grid-area {
+  font-family: 'Arvo', serif;
+}
+
+#main-header .logo-link {
+  font-family: 'Lilita One', sans-serif;
+}
+
+.logo-text {
+  font-family: 'Lilita One', sans-serif;
+  font-size: 36px;
+  border-bottom: solid 5px black;
+  margin: 0px 5px;
+  padding-bottom: 5px;
+}
+
+html {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: var(--black);
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Arvo', serif;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  color: var(--primary-text-color);
+  background-color: var(--page-background);
+}
+
+.markdown-body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: var(--markdown-body, --page-background);
+  line-height: 1.5;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+
+

@@ -1,0 +1,108 @@
+{% extends 'layout-default.njk' %}
+
+{% block themeBody %}
+
+  <div class="ga-head-l"></div>
+  <header id="main-header" class="header-grid-area">
+    {% block header %}
+      {% include 'partials/header.njk' %}
+    {% endblock header%}
+  </header>
+  <div class="ga-head-r"></div>
+  <!-- main -->
+  <div class="black-back ga-content-l"></div>
+  <div class="black-back ga-content-main">
+    <section class="sales-banner-panel">
+      <div class="page-width">
+        <div class="sales-banner-margins">
+          <div class="sales-banner">
+            <h1 class="sales-banner-txt">
+              Best Ever of the Large Corporate
+            </h1>
+            <p class="sales-banner-txt">
+              Deserunt minim voluptate laborum in dolor duis cillum quis id
+              Lorem nostrud dolor. Eu sint ad ex duis aliquip laborum
+              reprehenderit.
+            </p>
+            <button class="sales-button">See for yourself</button>
+          </div>
+          <div class="sales-pic"></div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="black-back ga-content-r"></div>
+
+  <div class="ga-content2-l"></div>
+  <div class="story-panel-margins ga-content2-main">
+    <h1>Inside OMG</h1>
+  </div>
+  <div class="ga-content2-r"></div>
+
+  <div class="ga-content3-l"></div>
+  <div class="story-panel-margins ga-content3-main">
+    <div class="front-stories">
+      <div class="front-story">
+        <img src="https://source.unsplash.com/random/399x302" alt="" />
+        <h4>Consequat laborum sunt</h4>
+        <p>Adipisicing laboris voluptate ad culpa duis ut sit</p>
+        <a href="">Buy 1, get 1 free</a>
+      </div>
+      <div class="front-story">
+        <img src="https://source.unsplash.com/random/399x300" alt="" />
+        <h4>Aute amet veniam laborum</h4>
+        <p>
+          Aliquip do qui dolore amet incididunt amet commodo tempor pariatur
+        </p>
+        <a href="">40% Discount on first purchase</a>
+      </div>
+      <div class="front-story">
+        <img src="https://source.unsplash.com/random/399x301" alt="" />
+        <h4>Mollit excepteur aliqua labore</h4>
+        <p>
+          Eu proident reprehenderit adipisicing irure ipsum deserunt ullamco
+          sunt occaecat qui.
+        </p>
+        <a href="">60 day free trial.</a>
+      </div>
+      <div class="front-story">
+        <img src="https://source.unsplash.com/random/398x302" alt="" />
+        <h4>Id quis commodo exercitation exercitation</h4>
+        <p>
+          Ad aliquip reprehenderit ullamco cillum. Quis in ut exercitation
+          culpa sint nulla do id officia eu qui ad minim.
+        </p>
+        <a href="">Installation comes with package</a>
+      </div>
+    </div>
+  </div>
+  <div class="ga-content3-r"></div>
+
+  <div class="grey-back ga-content4-l"></div>
+  <div class="grey-back ga-content4-main">
+    <h1 class="story-panel-margins">From index.md front matter and Rocket example code:</h1>
+  </div>
+  <div class="grey-back ga-content4-r"></div>
+
+  <div class="grey-back ga-content5-l"></div>
+  <div class="grey-back ga-content5-main">
+    {% block content %}
+      {% include 'partials/_layoutHome/content.njk' %}
+    {% endblock content %}
+  </div>
+  <div class="grey-back ga-content5-r"></div>
+  <!-- footer -->
+  <div class="ga-foot-main footerback">
+    {% block footer %}
+      {% include 'partials/footer.njk' %}
+    {% endblock footer %}
+  </div>
+  <div class="ga-foot-r footer-back"></div>
+
+  <div class="sidebar-grid-area">
+    {% block sidebar %}
+      {% include 'partials/_layoutHome/sidebar.njk' %}
+    {% endblock sidebar %}
+  </div>
+  {% include 'partials/bottom.njk' %}
+{% endblock themeBody %}

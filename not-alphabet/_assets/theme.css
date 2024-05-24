@@ -1,0 +1,81 @@
+.site-footer {
+  background-color: #e9eaea;
+  /* background-image: url(/_assets/_static/images/Answering.svg); */
+  background-position: 97% 54%;
+  background-position: calc(100% - 30px) 54%;
+  background-position: right 30px 54%;
+  background-size: 75px 18px;
+  background-repeat: no-repeat;
+  min-height: 90px;
+  position: relative;
+  text-align: right;
+  z-index: 9;
+}
+
+#right-panel {
+  background: white url(/_merged_assets/_static/images/yulia-matvienko-FR5RL5kI5T8-unsplash_.jpg);
+  background-size: cover;
+}
+.content-grid-area {
+  background-color: white;
+}
+
+.ga-content-main {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+body header {
+  top: 0px;
+  position: sticky;
+}
+
+#main-header.header-grid-area {
+  font-family: 'Raleway', sans-serif;
+}
+
+.logo-text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  border-bottom: solid 5px black;
+  margin: 0px 5px;
+  padding-bottom: 5px;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: var(--black);
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  color: var(--primary-text-color);
+  background-color: var(--page-background);
+}
+
+.markdown-body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: var(--markdown-body, --page-background);
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}

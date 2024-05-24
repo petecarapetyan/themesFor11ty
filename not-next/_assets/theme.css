@@ -1,0 +1,101 @@
+.ga-content-l,
+.ga-content-main,
+.ga-content-r {
+  background-color: white;
+}
+.centered {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.ga-content2-l,
+.ga-content2-main,
+.ga-content2-r {
+  background-color:skyblue;
+}
+
+.ga-content3-l,
+body[layout^='layout-home'] main.markdown-body,
+.ga-content3-r {
+  background-color:peachpuff;
+  margin: 0px;
+}
+.content-grid-area {
+  padding: 0px;
+}
+.ga-content4-l,
+.ga-content4-main,
+.ga-content4-r {
+  background-color:rebeccapurple;
+  color:white;
+}
+.ga-content5-l,
+.ga-content5-main,
+.ga-content5-r {
+  background-color: peru;
+}
+.ga-content6-l,
+.ga-content6-main,
+.ga-content6-r {
+  background-color: salmon;
+}
+
+
+#main-header.header-grid-area {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+#main-header .logo-link {
+  font-family: 'Sedgwick Ave', sans-serif;
+}
+
+.logo-text {
+  font-family: 'Sedgwick Ave', sans-serif;
+  font-size: 36px;
+  border-bottom: solid 5px black;
+  margin: 0px 5px;
+  padding-bottom: 5px;
+}
+
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: var(--black);
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  color: var(--primary-text-color);
+  background-color: var(--page-background);
+}
+
+.markdown-body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: var(--markdown-body, --page-background);
+  line-height: 1.5;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+
+
+

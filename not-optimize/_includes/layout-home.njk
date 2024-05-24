@@ -1,0 +1,67 @@
+{% extends 'layout-default.njk' %}
+
+{% block themeBody %}
+
+  <div class="ga-head-main">
+    <div class="ga-head-l" ></div>
+    <div class="ga-head-main-content">
+      <h3>Lorem ipsum</h3>
+      <h1>Lorem ipsum exercitation ullamco reprehenderit</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, sed. Laboris anim reprehenderit consequat voluptate nostrud deserunt minim</p>
+      <button type="button">Click Me!</button>
+    </div>
+    <div class="ga-head-l" ></div>
+  </div>
+
+  <div class="ga-content-l"></div>
+  <div class="content-grid-area">
+    {% block content %}
+      {% include 'partials/_layoutHome/content.njk' %}
+    {% endblock content %}
+  </div>
+  <div class="ga-content-r"></div>
+
+  <div class="ga-content2-l" ></div>
+  <div class="head-pic ga-content2-main">
+    <p class="exortation">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, sed. Amet ut consectetur consectetur minim laboris.</p>
+    <p class="attribution">Lorem ipsum dolor.</p>
+  </div>
+  <div class="ga-content2-r"></div>
+
+  <div class="ga-content3-l"></div>
+  <div class="ga-content3-main">
+      <h3>Lorem ipsum</h3>
+      <p><img src="https://source.unsplash.com/random/399x302" alt="" /></p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, sed. Laboris anim reprehenderit consequat voluptate nostrud deserunt minim</p>
+      <button type="button">CLICK ME!</button>
+      <a href="/"> FOR MORE INFO </a>
+  </div>
+  <div class="ga-content3-r"></div>
+
+
+  <div class="ga-content4-l" ></div>
+  <header id="main-header" class="header-grid-area">
+    {% block header %}
+      {% include 'partials/header.njk' %}
+    {% endblock header%}
+  </header>
+  <div class="ga-content4-r"></div>
+
+  <div class="ga-foot-l"></div>
+  <div class="ga-foot-main">
+    {% block footer %}
+      {% include 'partials/footer.njk' %}
+    {% endblock footer %}
+  </div>
+  <div class="ga-foot-r"></div>
+
+  <div class="sidebar-grid-area">
+    {% block sidebar %}
+      {% include 'partials/_layoutHome/sidebar.njk' %}
+    {% endblock sidebar %}
+  </div>
+  <div class="ga-content-r"></div>
+
+
+  {% include 'partials/bottom.njk' %}
+{% endblock themeBody %}

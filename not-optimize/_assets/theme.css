@@ -1,0 +1,151 @@
+.ga-head-main {
+  background-image: url(/_merged_assets/_static/images/vlad-rudkov-unsplash.jpg);
+  background-size: center;
+  width: 100%;
+}
+
+.ga-head-main-content {
+  color: whitesmoke;
+  display: grid;
+  justify-content: start;
+  align-content: center;
+  font-size: 20px;
+}
+
+.ga-content2-r,
+.ga-content2-main,
+.ga-content2-l {
+  background-color:midnightblue;
+  color: whitesmoke;
+}
+
+.ga-content4-r,
+.header-grid-area,
+.ga-content4-l {
+  background-color: darkslategrey;
+  color: whitesmoke;
+}
+
+.ga-content3-r,
+.ga-content3-main,
+.ga-content3-l,
+.ga-foot-r,
+.ga-foot-l {
+  background-color: var(--footer-background, rgba(0, 0, 0, 0.1));
+}
+
+.ga-content2-main,
+.ga-content3-main {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 5px;
+}
+
+.lorem-blurb {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.exortation {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.attribution {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#main-header.header-grid-area {
+  font-family: 'Nunito', sans-serif;
+  background-color: darkslategray;
+  margin:0px;
+}
+
+#main-header .logo-link {
+  font-family: 'Nunito', sans-serif;
+}
+#main-header a {
+  color: white;
+}
+#main-footer {
+  margin-top:0;
+}
+
+body[layout^='layout-home'] .page-logo {
+  display: block;
+  margin: 0 auto;
+  width: 35vw;
+  max-width: 250px;
+  color: var(--primary-color);
+}
+
+body[layout^='layout-home'] .page-title,
+body[layout^='layout-home'] .teaser-title,
+body[layout^='layout-home'] .page-slogan {
+  text-align: center;
+  border-bottom: none;
+  color: var(--text-color);
+}
+
+body[layout^='layout-home'] .page-slogan {
+  font-size: 18px;
+}
+
+body[layout^='layout-home'] .teaser-title {
+  margin-top: 60px;
+}
+
+.logo-text {
+  font-family: 'Nunito', sans-serif;
+  font-size: 36px;
+  border-bottom: solid 5px black;
+  margin: 0px 5px;
+  padding-bottom: 5px;
+}
+
+html {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: var(--black);
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  color: var(--primary-text-color);
+  background-color: var(--page-background);
+}
+
+.markdown-body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: var(--markdown-body, --page-background);
+  line-height: 1.5;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+
+
+

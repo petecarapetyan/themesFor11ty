@@ -1,0 +1,47 @@
+{% extends 'layout-default.njk' %}
+
+{% block themeBody %}
+
+  <div class="sidebar-grid-area">
+    {% block sidebar %}
+      {% include 'partials/_layoutHome/sidebar.njk' %}
+    {% endblock sidebar %}
+  </div>
+
+  <div class="theme-standin blank-header ga-head-main">
+      <nav class="navOne">
+        <ul>
+          <li><a href="/">Foo</a></li>
+          <li><a href="/">Bar</a></li>
+          <li><a href="/">Wah</a></li>
+          <li><a href="/">Yada</a></li>
+          <li><a href="/">Baz</a></li>
+          <li><a href="/">YoThere</a></li>
+        </ul>
+      </nav>
+  </div>
+
+  <header id="main-header" class="header-grid-area">
+    {% block header %}
+      {% include 'partials/header.njk' %}
+    {% endblock header%}
+  </header>
+
+  <div class="theme-standin blank-header ga-head3-main">
+    <p>[future header like wikipedia.com]</p>
+  </div>
+
+  <div class="content-grid-area">
+    {% block content %}
+      {% include 'partials/_layoutHome/content.njk' %}
+    {% endblock content %}
+  </div>
+
+  <div class="ga-foot-main">
+    {% block footer %}
+      {% include 'partials/footer.njk' %}
+    {% endblock footer %}
+  </div>
+
+  {% include 'partials/bottom.njk' %}
+{% endblock themeBody %}

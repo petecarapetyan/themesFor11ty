@@ -6,7 +6,7 @@ Exercitation dolor id id fugiat eu tempor in culpa nisi aute ea aliquip. Laborum
 
 ## occaecat
 
-<img class="bordered" src="/_merged_assets/_static/images/bulksplash-daoud_abismail-5DKFHoEJv-4.jpg" alt="bulksplash-daoud_abismail-5DKFHoEJv-4.jpg" />
+<img class="bordered" src="/static/images/bulksplash-daoud_abismail-5DKFHoEJv-4.jpg" alt="bulksplash-daoud_abismail-5DKFHoEJv-4.jpg" />
 
 Consectetur ad sit id exercitation ea minim magna ex exercitation eu qui reprehenderit exercitation duis. Labore incididunt et velit in adipisicing anim elit. Officia consequat laboris eiusmod aute aute anim minim ea ad occaecat esse irure pariatur non ad. Anim commodo minim labore exercitation do. Incididunt exercitation ad dolore qui irure est elit quis pariatur incididunt. Officia sunt fugiat id mollit minim reprehenderit incididunt dolore proident est ex duis laboris mollit dolor. Commodo id qui minim consequat. Excepteur duis incididunt voluptate elit magna enim cupidatat reprehenderit cillum.
 

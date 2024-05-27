@@ -51,7 +51,7 @@ img {
 }
 
 .sales-pic {
-  background: black url(/_merged_assets/_static/images/fire.jpg);
+  background: black url(/static/images/fire.jpg);
   background-size: cover;
   height: 450px;
 }

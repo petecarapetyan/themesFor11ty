@@ -4,6 +4,6 @@ Ut sint ad proident ad sit duis exercitation quis. Sint ad mollit nisi sunt. Ani
 
 Laboris ipsum nisi nostrud ea nostrud minim est eiusmod in id dolore ex. Aliquip dolor culpa cupidatat eiusmod officia proident esse commodo. Enim non aliqua duis fugiat est officia aliquip. Ullamco aliqua consectetur ad ullamco esse id. Nulla cillum et sit irure dolor ullamco exercitation. Commodo mollit quis laboris qui. Pariatur ut officia Lorem voluptate ut deserunt tempor amet duis. Nisi eu deserunt minim cupidatat velit excepteur pariatur labore veniam amet irure.
 
-<img class="bordered" src="/_merged_assets/_static/images/bulksplash-daoud_abismail-5DKFHoEJv-4.jpg" alt="bulksplash-daoud_abismail-5DKFHoEJv-4.jpg" />
+<img class="bordered" src="/static/images/bulksplash-daoud_abismail-5DKFHoEJv-4.jpg" alt="bulksplash-daoud_abismail-5DKFHoEJv-4.jpg" />
 
 Voluptate nisi incididunt commodo eu adipisicing sunt eiusmod sint ullamco proident. Adipisicing esse aliqua dolor proident cupidatat veniam quis enim eu incididunt mollit velit eiusmod dolor labore.

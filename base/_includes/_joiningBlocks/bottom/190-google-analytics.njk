@@ -1,11 +1,10 @@
-{% if site.analyticsGA4 %}
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analyticsGA4 }}"></script>
+{% if site.analytics %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics }}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', '{{ site.analyticsUA }}');
-    gtag('config', '{{ site.analyticsGA4 }}');
+    gtag('config', '{{ site.analytics }}');
   </script>
 {% endif %}

@@ -6,6 +6,6 @@ Ipsum commodo incididunt laborum velit ex deserunt dolor irure in. Esse sint sit
 
 ## proident
 
-<img class="bordered" src="/_merged_assets/_static/images/bulksplash-averycohen_-yZIuTK3-cqo.jpg" alt="bulksplash-averycohen_-yZIuTK3-cqo.jpg" />
+<img class="bordered" src="/static/images/bulksplash-averycohen_-yZIuTK3-cqo.jpg" alt="bulksplash-averycohen_-yZIuTK3-cqo.jpg" />
 
 Quis sit ut mollit ad mollit laboris incididunt sunt eiusmod velit deserunt velit. Est exercitation ad sunt aute aute commodo aute consequat. Lorem commodo consequat deserunt dolor aliqua.

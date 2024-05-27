@@ -37,14 +37,14 @@
 .banner {
   margin: 10px 10%;
   border: solid black;
-  background: black url(/_merged_assets/_static/images/alyssa-strohmann-2OlRSRLJPPU-unsplash_.jpg);
+  background: black url(/static/images/alyssa-strohmann-2OlRSRLJPPU-unsplash_.jpg);
   background-size: cover;
   color: white;
   font-size: 60px;
 }
 
 .site-banner {
-  background: black url(/_merged_assets/_static/images/alyssa-strohmann-2OlRSRLJPPU-unsplash_.jpg);
+  background: black url(/static/images/alyssa-strohmann-2OlRSRLJPPU-unsplash_.jpg);
   background-size: cover;
   color: white;
   font-size: 30px;

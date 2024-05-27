@@ -2,7 +2,7 @@
 
 ## ipsum amet
 
-<img class="bordered" src="/_merged_assets/_static/images/bulksplash-bencollins-xlYZUbmxuxQ.jpg" alt="bulksplash-bencollins-xlYZUbmxuxQ.jpg" />
+<img class="bordered" src="/static/images/bulksplash-bencollins-xlYZUbmxuxQ.jpg" alt="bulksplash-bencollins-xlYZUbmxuxQ.jpg" />
 
 Sint elit laboris reprehenderit ipsum minim cupidatat enim eu. Dolor duis ex exercitation in exercitation occaecat eiusmod deserunt commodo quis dolor amet esse labore. Excepteur sint do do officia amet magna minim aliqua magna adipisicing. Fugiat sunt esse irure ut id magna sint proident laboris nulla eu duis. Quis ex mollit aliquip laborum aliquip voluptate officia mollit laboris aliqua amet Lorem do magna magna. Ullamco labore commodo non excepteur consequat sit aliquip do qui non non elit ad.
 

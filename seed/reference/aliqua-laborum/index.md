@@ -2,7 +2,7 @@
 
 ## consectetur eu
 
-<img class="bordered" src="/_merged_assets/_static/images/bulksplash-goodfacesclub-SFCdN8Z9sBA.jpg" alt="bulksplash-goodfacesclub-SFCdN8Z9sBA.jpg" />
+<img class="bordered" src="/static/images/bulksplash-goodfacesclub-SFCdN8Z9sBA.jpg" alt="bulksplash-goodfacesclub-SFCdN8Z9sBA.jpg" />
 
 Enim cupidatat veniam esse deserunt eu cupidatat nostrud proident dolore amet laboris magna nulla incididunt. Deserunt sunt eiusmod aute in id est aliqua. Exercitation sunt anim magna et magna tempor dolore nisi ea pariatur ex est consectetur quis laboris. Cupidatat amet ex excepteur irure dolor ipsum laborum sint laboris fugiat quis elit ullamco et reprehenderit. Quis minim aliquip est pariatur enim deserunt ullamco. Mollit exercitation ut enim duis veniam nisi consequat id. Irure enim deserunt exercitation sunt eiusmod. Tempor quis proident qui voluptate ea amet reprehenderit dolore labore cillum et anim voluptate velit excepteur. Culpa magna dolor quis non nisi.
 

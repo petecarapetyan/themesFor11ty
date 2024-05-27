@@ -6,6 +6,6 @@ Tempor ullamco labore consequat. Minim ea veniam magna ex irure pariatur adipisi
 
 ## veniam cupidatat
 
-<img class="bordered" src="/_merged_assets/_static/images/bulksplash-cleipelt-8z_IyuOwcIQ.jpg" alt="bulksplash-cleipelt-8z_IyuOwcIQ.jpg" />
+<img class="bordered" src="/static/images/bulksplash-cleipelt-8z_IyuOwcIQ.jpg" alt="bulksplash-cleipelt-8z_IyuOwcIQ.jpg" />
 
 Sunt sit amet cupidatat elit nostrud officia est non ipsum cupidatat eiusmod. Pariatur dolor aliquip dolor tempor et. Ex consequat incididunt elit qui est ad culpa tempor esse qui et aliqua. Ex adipisicing dolore aliqua. Reprehenderit minim veniam nisi esse anim do fugiat culpa culpa excepteur mollit eiusmod. Lorem commodo voluptate ullamco deserunt enim. Magna eu ea sint ea aliquip veniam laboris veniam nulla. Pariatur pariatur qui officia tempor aliquip veniam exercitation excepteur occaecat minim veniam.

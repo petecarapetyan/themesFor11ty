@@ -6,7 +6,7 @@ Non quis duis officia excepteur qui labore fugiat anim laborum et voluptate ulla
 
 ## adipisicing
 
-<img class="bordered" src="/_merged_assets/_static/images/bulksplash-faruktokluoglu-JRDihcD25bw.jpg" alt="bulksplash-faruktokluoglu-JRDihcD25bw.jpg" />
+<img class="bordered" src="/static/images/bulksplash-faruktokluoglu-JRDihcD25bw.jpg" alt="bulksplash-faruktokluoglu-JRDihcD25bw.jpg" />
 
 Id proident Lorem proident cupidatat ad. Laborum qui consequat anim ut laborum eu minim eiusmod sunt. Ullamco qui pariatur esse proident ad adipisicing non in. Magna esse nulla laborum amet ullamco aliqua laboris officia minim. Reprehenderit nostrud consectetur eiusmod ad commodo culpa irure velit pariatur dolor aliqua est incididunt. Veniam eu velit tempor laborum exercitation veniam anim. Proident ad est tempor ea anim magna dolore aliquip laboris occaecat.
 

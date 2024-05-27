@@ -10,6 +10,6 @@ Dolore exercitation esse sunt sit id ipsum reprehenderit ullamco esse anim volup
 
 ## labore
 
-<img class="bordered" src="/_merged_assets/_static/images/bulksplash-dimitryzub-FscKoOCyyzc.jpg" alt="bulksplash-dimitryzub-FscKoOCyyzc.jpg" />
+<img class="bordered" src="/static/images/bulksplash-dimitryzub-FscKoOCyyzc.jpg" alt="bulksplash-dimitryzub-FscKoOCyyzc.jpg" />
 
 Laborum et cillum aliqua id officia adipisicing. Tempor sit ex officia magna consectetur labore adipisicing nostrud. Eu irure duis culpa.

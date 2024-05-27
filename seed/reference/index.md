@@ -1,6 +1,6 @@
 # Nostrud
 
-<img class="bordered" src="/_merged_assets/_static/images/bulksplash-erebus21-abffiRrT1WA.jpg" alt="bulksplash-erebus21-abffiRrT1WA.jpg" />
+<img class="bordered" src="/static/images/bulksplash-erebus21-abffiRrT1WA.jpg" alt="bulksplash-erebus21-abffiRrT1WA.jpg" />
 
 Ex enim et consectetur aliquip dolor sit sunt ea sunt duis. Lorem consectetur nisi dolor non irure eiusmod reprehenderit. Esse excepteur cupidatat voluptate cupidatat enim eiusmod ea sunt pariatur occaecat qui. Mollit laborum ipsum aliquip. Non sint non aliquip voluptate consequat sint cupidatat nostrud commodo ad. Officia non eu do aute consectetur minim proident. Nostrud qui elit ea dolore ipsum cupidatat ullamco voluptate. Laboris consequat ex ex anim consectetur esse non adipisicing laborum proident dolore adipisicing. Velit mollit labore ut deserunt aliqua commodo labore minim amet nostrud fugiat cupidatat anim sint fugiat.
 

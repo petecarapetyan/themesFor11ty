@@ -13,6 +13,7 @@ if [ $3 = "seed" ]; then
   cp -R ./seed/* ../$1 # copies some Lorem Ipsum stuff into your project so you'll have data
   cp -r ./$2/_includes ../$1
   cp -r ./$2/css ../$1/static
+  cp -r ./$2/_data ../$1
   rm -rf ../$1/blog # seems this is all broken in more than one way, little value ATM 
 elif [ $3 = "swap" ]; then
   echo "swap happened here"
@@ -26,4 +27,3 @@ else
   exit 2
 fi
 
-  

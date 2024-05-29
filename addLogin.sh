@@ -1,0 +1,1 @@
+cp ../../coderscampus/AuthWCFirebase/fbauth-element.bundled.js seed/static/js

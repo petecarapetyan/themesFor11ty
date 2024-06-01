@@ -1,0 +1,16 @@
+possible causes of 240530 issues:
+  - break in the actual nunjucks code that:
+    - depends on something I did not import:
+      - some nunjucks helper or something
+      - missing source file elsewhere
+    - is outdated
+    - is in the wrong place
+    - is too deep in the hiearchy
+    - is not broken but something else broke before it got here
+    - combination of above items
+    - i am just not seeing because too obvious
+    - 
+possible ways to diagnose:
+  - build a branch or branches so I can wreck without care
+  - start from scratch with the simplest possible example
+  - keep going and see where it breaks

@@ -2,33 +2,46 @@
 {% block htmlTag %}
 <html lang="{{ site.lang }}" dir="{{ site.dir }}">
 {% endblock htmlTag %}
-
-  {% block head %}
-    {% include 'partials/head.njk' %}
-  {% endblock head %}
-
+  {% include '_block/head.njk' %}
   {% block bodyTag %}
   <body layout="{{ layout }}">
   {% endblock bodyTag %}
 
-    {% block header %}
-      {% include 'partials/header.njk' %}
-    {% endblock header%}
+    {% block themeBody %}
+    {% endblock themeBody%}
+
+    <header id="main-header">
+      <div class="content-area">
+        {% block header_snippets %}
+          {% include 'snippet/header-collection-header.njk' %}
+          {% include 'snippet/header-logo-background.njk' %}
+          {% include 'snippet/header-logo.njk' %}
+          {% include 'snippet/header-mobile-menu-trigger.njk' %}
+          {% include 'snippet/header-social-links.njk' %}
+        {% endblock header_snippets%}
+      </div>
+    </header>
 
     {% block main %}
       <div id="content-wrapper">
         <div class="content-area">
-          {% block content %}
-            {% include 'partials/content.njk' %}
-          {% endblock content %}
+          <main class="markdown-body">
+            {{ content }}
+          </main>
         </div>
       </div>
     {% endblock main %}
 
-    {% block footer %}
-      {% include 'partials/footer.njk' %}
-    {% endblock footer %}
-
-    {% include 'partials/bottom.njk' %}
+    <footer id="main-footer">
+      {% block footer_snippets %}
+        {% include 'snippet/footer-description.njk' %}
+        {% include 'snippet/footer-menu.njk' %}
+        {% include 'snippet/footer-newsletter.njk' %}
+      {% endblock footer_snippets %}
+    </footer>
+    {% include 'snippet/bottom-google-analytics.njk' %}
+    {% include 'snippet/bottom-init-navigation.njk' %}
+    {% include 'snippet/bottom-register-service-worker.njk' %}
+    
   </body>
 </html>

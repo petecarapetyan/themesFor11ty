@@ -21,17 +21,10 @@
       {% endblock sidebar %}
     </div>
     <div class="content-grid-area">
-      {% block content %}
-        {% include 'partials/_layoutHome/content.njk' %}
-      {% endblock content %}
+      <main class="markdown-body">
+  {{content}}
+</main>
     </div>
     <div class="ga-content-r"></div>
 
-    <div class="ga-foot-main">
-      {% block footer %}
-        {% include 'partials/footer.njk' %}
-      {% endblock footer %}
-    </div>
-
-    {% include 'partials/bottom.njk' %}
 {% endblock themeBody %}

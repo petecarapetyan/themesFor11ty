@@ -15,24 +15,15 @@
 
     {% block main %}
       <div id="content-wrapper">
-        <div class="content-area">
+        <div class="content-area ga-content-main">
           <main class="markdown-body">
             {{ content }}
           </main>
         </div>
       </div>
     {% endblock main %}
-
-    <footer id="main-footer">
-      {% block footer_snippets %}
-        {% include 'snippet/footer-description.njk' %}
-        {% include 'snippet/footer-menu.njk' %}
-        {% include 'snippet/footer-newsletter.njk' %}
-      {% endblock footer_snippets %}
-    </footer>
-    {% include 'snippet/bottom-google-analytics.njk' %}
-    {% include 'snippet/bottom-init-navigation.njk' %}
-    {% include 'snippet/bottom-register-service-worker.njk' %}
+    {% include '_block/footer.njk' %}
+    {% include '_block/bottom.njk' %}
     
   </body>
 </html>

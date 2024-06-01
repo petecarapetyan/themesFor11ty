@@ -2,7 +2,7 @@
 {% block htmlTag %}
 <html lang="{{ site.lang }}" dir="{{ site.dir }}">
 {% endblock htmlTag %}
-  {% include '_block/head.njk' %}
+{% include '_block/head.njk' %}
   {% block bodyTag %}
   <body layout="{{ layout }}">
   {% endblock bodyTag %}
@@ -10,17 +10,8 @@
     {% block themeBody %}
     {% endblock themeBody%}
 
-    <header id="main-header">
-      <div class="content-area">
-        {% block header_snippets %}
-          {% include 'snippet/header-collection-header.njk' %}
-          {% include 'snippet/header-logo-background.njk' %}
-          {% include 'snippet/header-logo.njk' %}
-          {% include 'snippet/header-mobile-menu-trigger.njk' %}
-          {% include 'snippet/header-social-links.njk' %}
-        {% endblock header_snippets%}
-      </div>
-    </header>
+
+    {% include '_block/header.njk' %}
 
     {% block main %}
       <div id="content-wrapper">

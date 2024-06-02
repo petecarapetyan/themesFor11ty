@@ -13,7 +13,7 @@ module.exports = function () {
     gitSiteUrl: 'https://github.com/petecarapetyan/fins-rocket-themes',
     gitBranch: 'main',
     helpUrl: 'https://github.com/petecarapetyan/fins-rocket-themes/issues',
-    logoAlt: 'Rocket Logo',
+    logoAlt: 'logohere',
     iconColorMaskIcon: '#3f93ce',
     iconColorMsapplicationTileColor: '#1d3557',
     iconColorThemeColor: '#1d3557',

@@ -1,19 +1,7 @@
 {% extends 'layout-default.njk' %}
 
 {% block themeBody %}
-
     <div class="ga-content-l"></div>
-    <div class="sidebar-grid-area">
-      {% block sidebar %}
-        {% include 'partials/_layoutSidebar/sidebar.njk' %}
-      {% endblock sidebar %}
-    </div>
-    <div class="content-grid-area">
-      {% block content %}
-        {% include 'partials/_layoutSidebar/content.njk' %}
-      {% endblock content %}
-    </div>
     <div class="ga-content-r"></div>
-
-    {% include 'partials/bottom.njk' %}
+    {% include '_block/sidebar.njk' %}
 {% endblock themeBody %}

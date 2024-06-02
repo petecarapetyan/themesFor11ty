@@ -15,6 +15,7 @@ if [ $3 = "seed" ]; then
   cp -r ./$2/css ../$1/static
   cp -r ./$2/_data ../$1
   rm -rf ../$1/blog # seems this is all broken in more than one way, little value ATM 
+  cp ./addFrontMatter.sh ../$1
 elif [ $3 = "swap" ]; then
   echo "swap happened here"
 elif [ $3 = "empty" ]; then

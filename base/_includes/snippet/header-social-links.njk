@@ -4,7 +4,7 @@
 		{% if entry.image %}
 			<img src="{{ entry.image }}" alt="{{ entry.alt }}"/>
 		{% else %}
-			{{ '/_assets/brand-logos/NAME.svg' | replace("NAME", entry.name) | lower |  safe }}
+			{# {{ '/static/brand-logos/NAME.svg' | replace("NAME", entry.name) | lower |  safe }} #}
 		{% endif %}
 	</a>
 {%- endfor %}

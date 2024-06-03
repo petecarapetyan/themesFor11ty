@@ -2,7 +2,7 @@
 
 {% block themeBody %}
   <div class="ga-head-l"></div>
-  <div class="ga-head-main">
+  <div class="ga-head-main">s
     {{ site.name }} 
   </div>
   <div class="side-top ga-head-side">
@@ -16,32 +16,9 @@
   </div>
   <div class="ga-head-r"></div>
   <div class="color-band ga-head2-l"></div>
-  <header id="main-header" class="color-band header-grid-area">
-    {% block header %}
-      {% include 'partials/header.njk' %}
-    {% endblock header%}
-  </header>
   <div class="color-band ga-head2-side">
   </div>
   <div class="color-band ga-head2-r"></div>
-
   <div class="ga-content-l"></div>
-  <div class="content-grid-area">
-    {% block content %}
-      {% include 'partials/_layoutHome/content.njk' %}
-    {% endblock content %}
-  </div>
   <div class="ga-content-r"></div>
-
-  <div class="sidebar-grid-area">
-    {% block sidebar %}
-      {% include 'partials/_layoutHome/sidebar.njk' %}
-    {% endblock sidebar %}
-  </div>
-  <div class="ga-foot-main">
-    {% block footer %}
-      {% include 'partials/footer.njk' %}
-    {% endblock footer %}
-  </div>
-  {% include 'partials/bottom.njk' %}
 {% endblock themeBody %}

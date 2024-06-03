@@ -5,22 +5,13 @@
 
   <div class="ga-content-main">
     <p>
-      <img src="{{ '_assets/_static/images/grill.jpg' | asset | url }}" role="presentation"/>
+      <img src="{{ 'static/images/grill.jpg' | url }}" role="presentation"/>
     </p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     <p>Inventore, sed.</p>
   </div>
   <div id="right-panel" class="ga-content2-side"></div>
 
-  <footer class="site-footer ga-foot-main"></div>
+   {% include '_block/sidebar.njk' %}
 
-
-  <div class="sidebar-grid-area">
-    {% block sidebar %}
-      {% include 'partials/_layoutHome/sidebar.njk' %}
-    {% endblock sidebar %}
-  </div>
-
-
-  {% include 'partials/bottom.njk' %}
 {% endblock themeBody %}

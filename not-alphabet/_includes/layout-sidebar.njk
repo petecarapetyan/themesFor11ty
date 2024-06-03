@@ -2,23 +2,6 @@
 
 {% block themeBody %}
 
-  <div class="content-grid-area">
-    {% block content %}
-      {% include 'partials/_layoutSidebar/content.njk' %}
-    {% endblock content %}
-  </div>
+    {% include '_block/sidebar.njk' %}
 
-  <div class="sidebar-grid-area">
-    {% block sidebar %}
-      {% include 'partials/_layoutSidebar/sidebar.njk' %}
-    {% endblock sidebar %}
-  </div>
-  
-  <div class="ga-foot-main">
-    {% block footer %}
-      {% include 'partials/footer.njk' %}
-    {% endblock footer %}
-  </div>
-
-  {% include 'partials/bottom.njk' %}
 {% endblock themeBody %}

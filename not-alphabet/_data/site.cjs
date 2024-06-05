@@ -7,7 +7,28 @@ module.exports = function () {
     socialLinks: [
       {
         name: 'GitHub',
-        url: 'https://github.com/petecarapetyan/fins-rocket-themes/tree/main/not-alphabet/src/docs',
+        image: '/static/brand-logos/github.svg',
+        url: 'https://github.com/petecarapetyan/fins-rocket-themes/tree/main/not-wired/src/docs',
+      },
+      {
+        name: 'facebook',
+        image: '/static/brand-logos/facebook.svg',
+        url: 'https://github.com/petecarapetyan/fins-rocket-themes/tree/main/not-wired/src/docs',
+      },
+      {
+        name: 'Twitter',
+        image: '/static/brand-logos/strava.svg',
+        url: 'https://twitter.com/appwritercom',
+      },
+      {
+        name: 'Youtube',
+        image: '/static/brand-logos/youtube.svg',
+        url: 'https://www.youtube.com/channel/UCDXcfvbtHigu3o81rDq1YJw',
+      },
+      {
+        name: 'Linkedin',
+        image: '/static/brand-logos/linkedin.svg',
+        url: 'https://www.linkedin.com/in/pete-carapetyan-b3a39b/',
       },
     ],
     gitSiteUrl: 'https://github.com/petecarapetyan/fins-rocket-themes',

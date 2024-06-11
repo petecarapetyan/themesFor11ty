@@ -8,13 +8,20 @@ find "$(pwd)" -path "$(pwd)/node_modules" -prune -o -type f -name "*.md" -print 
     relative_path="${file#$(pwd)/}"
     # Get the filename without the rest of the path and without the .md extension
     filename="$(basename "$file" .md)"
-    # Print the relative path and the filename
+    # Get the parent directory of the file
+    parent_dir="$(basename "$(dirname "$file")")"
+    # Print the relative path, the filename, and the parent directory
     echo "$relative_path"
     echo "$filename"
+    echo "$parent_dir"
     # Create the new content to prepend
     new_content="---
 layout: layout-sidebar
 title: $filename
+eleventyNavigation:
+  key: $filename
+  title: $filename
+  parent: $parent_dir
 ---
 "
     # Prepend the new content to the file
